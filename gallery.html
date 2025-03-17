@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Gallery</title>
+    <title>Your Gallery</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
@@ -70,9 +70,9 @@
 
     <!-- Slideshow -->
     <div class="slideshow-container">
-        <img class="slide" src="IMG-20250305-WA0047.jpg " alt="Image 1">
-        <img class="slide" src="IMG-20250224-WA0124.jpg" alt="Image 2">
-        <img class="slide" src="IMG-20250222-WA0006.jpg" alt="Image 3">
+        <img class="slide" src="IMG-20250317-WA0030.jpg " alt="Image 1">
+        <img class="slide" src="IMG-20250317-WA0025.jpg" alt="Image 2">
+        <img class="slide" src="IMG-20250317-WA0026.jpg" alt="Image 3">
 
         <!-- Navigation Buttons -->
         <a class="prev" onclick="changeSlide(-1)">❮</a>
@@ -91,7 +91,7 @@
             slideIndex++;
             if (slideIndex > slides.length) { slideIndex = 1; }
             slides[slideIndex - 1].style.display = "block";
-            setTimeout(showSlides, 5000); // Change image every 5 seconds
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
         }
 
         function changeSlide(n) {
